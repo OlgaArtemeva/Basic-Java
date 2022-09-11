@@ -84,7 +84,7 @@ public class Main {
         }
 
 //        Написать программу, которая выводит на экран таблицу умножения (таблицу Пифагора). Естественно, использовать циклы.
-    for (int numStr=1; numStr<=9; ){
+    for (int numStr=1; numStr<=9; numStr+=1){
         for (int numCol=1; numCol<=9; numCol+=1){
             int num= numStr*numCol;
             String numCell=" ";
@@ -97,7 +97,6 @@ public class Main {
             System.out.print(numCell);
         }
         System.out.println("");
-        numStr+=1;
     }
 
     }
